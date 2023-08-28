@@ -689,8 +689,3 @@ function draw_axes(handles)
         legend('One Random circuit','Two Random circuits','Three Random circuits')
     end
 end
-%     rho_0 =  [1 -1 -1 1];
-%     A = (1/2^0.5) * [1 0; 0 -1];
-% L = [0 0 0 0 ; 0 -1 0 0; 0 0 -1 0 ; 0 0 0 0];
-% L = [-1 0 0 0 ; 0 0 0 0; 0 0 0 0 ; -1 0 0 0];
-% L = kron(A, A_dag) - 0.5 * (kron(I, A_dag * A ) + kron(A_dag * A, I));
