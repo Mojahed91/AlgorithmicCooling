@@ -280,63 +280,9 @@ function Ok_Callback(hObject, eventdata, handles)
     recall(hObject, eventdata, handles)
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 % -------------------------------------------------------------------------
 % -------------------------------------------------------------------------
+
 function rho_total = initialState(initMatrix, numQubits)
     rho_total = initMatrix;
     for i=2: numQubits
